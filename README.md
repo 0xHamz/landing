@@ -3,7 +3,7 @@
 </p>
 
 <h2 align="center">🚐 TravelApp – Sistem Pemesanan Travel</h2>
-<p align="center">Dibuat oleh <b>Akbar Pratama</b></p>
+<p align="center">Dibuat oleh <b>Hamzah Akbar Pratama</b></p>
 
 ---
 
