@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
+
+class AdminMiddleware
+{
+    public function handle(Request $request, Closure $next)
+    {
+        if (Session::get('user_role') !== 'admin') {
+            return redirect()->route('sign');
+        }
+
+        return $next($request);
+    }
+}
